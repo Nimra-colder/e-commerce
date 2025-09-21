@@ -1,0 +1,210 @@
+.container .hero .img img{
+    width: 90%;
+}
+ .container .hero .left1 h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .container .hero .left1 .btn{
+    border: 40px;
+    cursor: pointer;
+ }
+
+ .container .hero .left1 .data .ship img{
+    width: 6%;
+    margin-top: 70px;
+ }
+
+  .container .hero .left1 .data .ship h6 {
+    margin-top: 75px;
+    margin-left: 10px;
+  }
+
+  .container .card  .img img{
+   width: 100%;
+  
+  }
+
+  .container .collections .man .photo img{
+   width: 50%;
+  }
+
+  .container .card .btn3{
+   border-radius: 40px;
+  }
+
+
+  .container .card .collections .photo img{
+   width: 20%;
+  }
+
+  .container .collections .right img{
+   width: 50%;
+  }
+
+  .container .collections .bottom .man .pic img{
+   width: 150%;
+  
+  }
+  .container .collections .bottom .img img{
+   width: 40%;
+  }
+.container .card{
+   background-color: rgba(var(--bs-light-rgb));
+}
+  .container .collections .right .man{
+   background-color: #e6f4ff;
+ border-radius: 10%;
+ text-align: center;
+}
+
+.container .collections .right .kid{
+   background-color: #fff4e6;
+   border-radius: 10%;
+   margin-left: 20px;
+   text-align: center;
+}
+
+.beauty{
+   background-color: #ffe6eb;
+   width: 50%;
+    border-radius: 10%;
+    text-align: center;
+}
+.Accessories{
+background-color: #e6ffe8;
+width: 50%;
+ margin-left: 20px;
+  border-radius: 10%;
+  text-align: center;
+}
+.Accessories .img .img{
+   width: 50%;
+
+}
+
+.beauty .pic img{
+   width: 40%;
+
+}
+ .container .row .col-md-1{
+   border-radius: 5px;  
+   background-color: white;
+   border: 1px solid #000;
+   text-align: center;
+   padding-top: 1rem;
+   
+} 
+
+.container .row{
+ 
+   align-items: center;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+footer ul li {
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+
+
+footer button {
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+.container .data{
+   display: flex;
+}
+.hero{
+   display: flex;
+}
+
+
+@media (max-width: 768px) {
+
+   .container .card .main{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+
+   }
+  .container .collections .right{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+
+.container .collections .bottom{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+
+.beauty{
+   width: 100%;
+  margin-left: 10px;
+}
+
+.Accessories{
+   width: 90%;
+}
+
+.container .collections .right .kid{
+   margin-top: 20px;
+
+} 
+
+.man{
+   display: flex;
+   flex-direction: column;
+}
+.container .collections{
+   justify-content: center;
+}
+
+.container{
+   display: block;
+  
+}
+.container .data{
+      display: block;
+}
+.card.bg-light{
+   width: 25rem;
+}
+footer.bg-black.text-white.py-5{
+   text-align: center;
+}
+
+.d-flex.gap-3.mt-2{
+   display: flex;
+   justify-content: center;
+}
+.hero{
+   display: block;
+}
+.container .hero .left1 h1{
+   text-align: center;
+
+}
+.container .collections .bottom .img img {
+   margin-bottom: 10%;
+
+}
+.pic.mt-3{
+   margin-bottom: 10%;
+}
+}
+
+
